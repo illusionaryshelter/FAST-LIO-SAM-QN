@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package>
+  <name>fast_lio_sam_qn</name>
+  <version>0.0.0</version>
+
+  <description>
+    This is a SLAM implementation combining FAST-LIO2 with pose graph optimization and loop closing based on Quatro and Nano-GICP
+  </description>
+  <maintainer email="eungchang_mason@kaist.ac.kr">Eungchang Mason Lee</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rclcpp</build_depend>
+  <build_depend>rosbag2_cpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>tf2</build_depend>
+  <build_depend>tf2_eigen</build_depend>
+  <build_depend>tf_conversions</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+  <build_depend>message_filters</build_depend>
+  <build_depend>nano_gicp</build_depend>
+  <build_depend>quatro</build_depend>
+  <build_depend>livox_ros_driver2</build_depend>
+  <build_depend>tf2_geometry_msgs</build_depend>
+  <build_depend>minkindr</build_depend>
+  <build_depend>minkindr_conversions</build_depend>
+  <build_depend>cv_bridge</build_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
