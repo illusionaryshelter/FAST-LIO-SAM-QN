@@ -72,7 +72,7 @@ Thanks to the original author [engcang](https://github.com/engcang) for his help
 
   - Then run
 
-    ```
+    ```shell
     ros2 launch fast_lio_sam_qn run.launch.py lidar:=kitti
     (another ternimal)ros2 bag play yourbag
     ```
