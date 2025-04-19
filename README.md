@@ -15,7 +15,7 @@ Thanks to the original author [engcang](https://github.com/engcang) for his help
 
 ## Developing
 
-+ Optional faster-lio features.
++ Optional [faster-lio](https://github.com/gaoxiang12/faster-lio) features.
 
 ## Dependencies
 
