@@ -1,9 +1,5 @@
 # FAST-LIO-SAM-QN
 
-## Developing
-
-+ Optional faster-lio features.
-
 Thanks to the original author [engcang](https://github.com/engcang) for his help in the process!
 + This repository is a SLAM implementation combining [FAST-LIO2](https://github.com/hku-mars/FAST_LIO) with pose graph optimization and loop closing based on [Quatro](https://quatro-plusplus.github.io/) and [Nano-GICP module](https://github.com/engcang/nano_gicp)
   + [Quatro](https://quatro-plusplus.github.io/) - fast, accurate and robust global registration which provides great initial guess of transform
@@ -16,6 +12,10 @@ Thanks to the original author [engcang](https://github.com/engcang) for his help
   + [FAST_LIO_SAM](https://github.com/engcang/FAST-LIO-SAM): FAST-LIO2 + LIO-SAM (modularized)
 
 ## Video clip - https://youtu.be/MQ8XxRY472Y
+
+## Developing
+
++ Optional faster-lio features.
 
 ## Dependencies
 
