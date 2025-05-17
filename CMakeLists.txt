@@ -58,7 +58,6 @@ find_package(pcl_conversions REQUIRED)
 find_package(livox_ros_driver2 REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
 find_package(Eigen3 REQUIRED)
-find_package(FMT REQUIRED)
 find_package(teaserpp REQUIRED)
 find_package(gflags REQUIRED)
 find_package(glog REQUIRED)
@@ -77,7 +76,6 @@ if(GTSAM_FOUND)
 	message(WARNING "GTSAM_VER: ${GTSAM_VERSION}, and GTSAM DIR: ${GTSAM_INCLUDE_DIR} with LIB: ${gtsam}")
 endif()
 
-add_definitions(-DFMT_HEADER_ONLY)
 add_definitions(-DFASTLIO_SAM_QN_PARAM_DEBUG)
 
 set(dependencies
@@ -113,7 +111,6 @@ include_directories(
   ${PCL_INCLUDE_DIRS}
   ${PCL_CONVERSIONS_INCLUDE_DIRS}
   ${EIGEN3_INCLUDE_DIR}
-  ${FMT_INCLUDE_DIRS}
   ${GTSAM_INCLUDE_DIR}
 )
 
