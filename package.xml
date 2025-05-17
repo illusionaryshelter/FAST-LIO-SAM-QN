@@ -28,8 +28,6 @@
   <build_depend>quatro</build_depend>
   <build_depend>livox_ros_driver2</build_depend>
   <build_depend>tf2_geometry_msgs</build_depend>
-  <build_depend>minkindr</build_depend>
-  <build_depend>minkindr_conversions</build_depend>
   <build_depend>cv_bridge</build_depend>
 
   <export>
